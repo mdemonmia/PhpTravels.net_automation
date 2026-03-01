@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="39" passed="39" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-10T10:29:25 PST" name="phptravelSuite" finished-at="2026-02-10T10:31:21 PST" duration-ms="115881">
+    <groups>
+    </groups>
+    <test started-at="2026-02-10T10:29:25 PST" name="SignupTest" finished-at="2026-02-10T10:31:21 PST" duration-ms="115881">
+      <class name="com.example.new_maven.testcase.Investors">
+        <test-method signature="investortest()[pri:0, instance:com.example.new_maven.testcase.Investors@13b6aecc]" started-at="2026-02-10T10:31:13 PST" name="investortest" finished-at="2026-02-10T10:31:15 PST" duration-ms="2057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- investortest -->
+      </class> <!-- com.example.new_maven.testcase.Investors -->
+      <class name="com.example.new_maven.testcase.Accessibilitytestcase">
+        <test-method signature="accessibilityClick()[pri:0, instance:com.example.new_maven.testcase.Accessibilitytestcase@17f7cd29]" started-at="2026-02-10T10:31:08 PST" name="accessibilityClick" finished-at="2026-02-10T10:31:10 PST" duration-ms="2333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessibilityClick -->
+      </class> <!-- com.example.new_maven.testcase.Accessibilitytestcase -->
+      <class name="com.example.new_maven.testcase.Suppliertestcase">
+        <test-method signature="privacy1()[pri:1, instance:com.example.new_maven.testcase.Suppliertestcase@63475ace]" started-at="2026-02-10T10:30:44 PST" name="privacy1" finished-at="2026-02-10T10:30:48 PST" duration-ms="4189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- privacy1 -->
+        <test-method signature="Privacy2()[pri:2, instance:com.example.new_maven.testcase.Suppliertestcase@63475ace]" started-at="2026-02-10T10:30:48 PST" name="Privacy2" finished-at="2026-02-10T10:30:50 PST" duration-ms="2218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Privacy2 -->
+      </class> <!-- com.example.new_maven.testcase.Suppliertestcase -->
+      <class name="com.example.new_maven.testcase.Disruptiontestcase">
+        <test-method signature="disruption()[pri:0, instance:com.example.new_maven.testcase.Disruptiontestcase@bccb269]" started-at="2026-02-10T10:31:04 PST" name="disruption" finished-at="2026-02-10T10:31:06 PST" duration-ms="2201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disruption -->
+      </class> <!-- com.example.new_maven.testcase.Disruptiontestcase -->
+      <class name="com.example.new_maven.testcase.Abouttestcase">
+        <test-method signature="About1()[pri:1, instance:com.example.new_maven.testcase.Abouttestcase@587e5365]" started-at="2026-02-10T10:30:34 PST" name="About1" finished-at="2026-02-10T10:30:36 PST" duration-ms="2121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- About1 -->
+        <test-method signature="About2()[pri:2, instance:com.example.new_maven.testcase.Abouttestcase@587e5365]" started-at="2026-02-10T10:30:36 PST" name="About2" finished-at="2026-02-10T10:30:36 PST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- About2 -->
+      </class> <!-- com.example.new_maven.testcase.Abouttestcase -->
+      <class name="com.example.new_maven.testcase.refundTestcase">
+        <test-method signature="refund_Click()[pri:0, instance:com.example.new_maven.testcase.refundTestcase@5fbe4146]" started-at="2026-02-10T10:31:19 PST" name="refund_Click" finished-at="2026-02-10T10:31:21 PST" duration-ms="1952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refund_Click -->
+      </class> <!-- com.example.new_maven.testcase.refundTestcase -->
+      <class name="com.example.new_maven.testcase.Documenttestcase">
+        <test-method signature="Documents()[pri:0, instance:com.example.new_maven.testcase.Documenttestcase@6913c1fb]" started-at="2026-02-10T10:31:00 PST" name="Documents" finished-at="2026-02-10T10:31:02 PST" duration-ms="2250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Documents -->
+      </class> <!-- com.example.new_maven.testcase.Documenttestcase -->
+      <class name="com.example.new_maven.testcase.Contacttestcase">
+        <test-method signature="Contacttest1()[pri:1, instance:com.example.new_maven.testcase.Contacttestcase@43c1b556]" started-at="2026-02-10T10:30:31 PST" name="Contacttest1" finished-at="2026-02-10T10:30:33 PST" duration-ms="2141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contacttest1 -->
+        <test-method signature="Contacttest2()[pri:2, instance:com.example.new_maven.testcase.Contacttestcase@43c1b556]" started-at="2026-02-10T10:30:33 PST" name="Contacttest2" finished-at="2026-02-10T10:30:34 PST" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contacttest2 -->
+      </class> <!-- com.example.new_maven.testcase.Contacttestcase -->
+      <class name="com.example.new_maven.testcase.Insurencetestcase">
+        <test-method signature="clickInsurence()[pri:0, instance:com.example.new_maven.testcase.Insurencetestcase@66d18979]" started-at="2026-02-10T10:31:02 PST" name="clickInsurence" finished-at="2026-02-10T10:31:04 PST" duration-ms="2075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickInsurence -->
+      </class> <!-- com.example.new_maven.testcase.Insurencetestcase -->
+      <class name="com.example.new_maven.testcase.bookTestcase">
+        <test-method signature="Bookclick()[pri:0, instance:com.example.new_maven.testcase.bookTestcase@3c3d9b6b]" started-at="2026-02-10T10:31:16 PST" name="Bookclick" finished-at="2026-02-10T10:31:18 PST" duration-ms="1528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bookclick -->
+      </class> <!-- com.example.new_maven.testcase.bookTestcase -->
+      <class name="com.example.new_maven.testcase.Cookietestcase">
+        <test-method signature="cookieClick1()[pri:1, instance:com.example.new_maven.testcase.Cookietestcase@22fcf7ab]" started-at="2026-02-10T10:30:36 PST" name="cookieClick1" finished-at="2026-02-10T10:30:40 PST" duration-ms="4202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookieClick1 -->
+        <test-method signature="cookieClick2()[pri:2, instance:com.example.new_maven.testcase.Cookietestcase@22fcf7ab]" started-at="2026-02-10T10:30:40 PST" name="cookieClick2" finished-at="2026-02-10T10:30:41 PST" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookieClick2 -->
+      </class> <!-- com.example.new_maven.testcase.Cookietestcase -->
+      <class name="com.example.new_maven.testcase.FAQtestcase">
+        <test-method signature="faq()[pri:0, instance:com.example.new_maven.testcase.FAQtestcase@609cd4d8]" started-at="2026-02-10T10:31:06 PST" name="faq" finished-at="2026-02-10T10:31:08 PST" duration-ms="2017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faq -->
+      </class> <!-- com.example.new_maven.testcase.FAQtestcase -->
+      <class name="com.example.new_maven.testcase.programmTestcase">
+        <test-method signature="support_Programm()[pri:0, instance:com.example.new_maven.testcase.programmTestcase@7d8704ef]" started-at="2026-02-10T10:31:10 PST" name="support_Programm" finished-at="2026-02-10T10:31:13 PST" duration-ms="2159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- support_Programm -->
+      </class> <!-- com.example.new_maven.testcase.programmTestcase -->
+      <class name="com.example.new_maven.testcase.Termstestcase">
+        <test-method signature="Terms1()[pri:1, instance:com.example.new_maven.testcase.Termstestcase@4988d8b8]" started-at="2026-02-10T10:30:50 PST" name="Terms1" finished-at="2026-02-10T10:30:53 PST" duration-ms="2836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terms1 -->
+        <test-method signature="Terms2()[pri:2, instance:com.example.new_maven.testcase.Termstestcase@4988d8b8]" started-at="2026-02-10T10:30:53 PST" name="Terms2" finished-at="2026-02-10T10:30:55 PST" duration-ms="2224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terms2 -->
+      </class> <!-- com.example.new_maven.testcase.Termstestcase -->
+      <class name="com.example.new_maven.testcase.LoginTest">
+        <test-method signature="validLogin()[pri:1, instance:com.example.new_maven.testcase.LoginTest@4009e306]" started-at="2026-02-10T10:30:15 PST" name="validLogin" finished-at="2026-02-10T10:30:19 PST" duration-ms="3371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method signature="inValidLogin()[pri:2, instance:com.example.new_maven.testcase.LoginTest@4009e306]" started-at="2026-02-10T10:30:19 PST" name="inValidLogin" finished-at="2026-02-10T10:30:20 PST" duration-ms="1561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLogin -->
+        <test-method signature="inValidEmailLogin()[pri:3, instance:com.example.new_maven.testcase.LoginTest@4009e306]" started-at="2026-02-10T10:30:20 PST" name="inValidEmailLogin" finished-at="2026-02-10T10:30:22 PST" duration-ms="1768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidEmailLogin -->
+        <test-method signature="inValidPasswordLogin()[pri:4, instance:com.example.new_maven.testcase.LoginTest@4009e306]" started-at="2026-02-10T10:30:22 PST" name="inValidPasswordLogin" finished-at="2026-02-10T10:30:24 PST" duration-ms="1668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidPasswordLogin -->
+        <test-method signature="forgotPasswordvalidLogin()[pri:5, instance:com.example.new_maven.testcase.LoginTest@4009e306]" started-at="2026-02-10T10:30:24 PST" name="forgotPasswordvalidLogin" finished-at="2026-02-10T10:30:27 PST" duration-ms="2703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordvalidLogin -->
+        <test-method signature="forgotPasswordInvalidLogin()[pri:6, instance:com.example.new_maven.testcase.LoginTest@4009e306]" started-at="2026-02-10T10:30:27 PST" name="forgotPasswordInvalidLogin" finished-at="2026-02-10T10:30:31 PST" duration-ms="4018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordInvalidLogin -->
+      </class> <!-- com.example.new_maven.testcase.LoginTest -->
+      <class name="com.example.new_maven.testcase.Besttestcase">
+        <test-method signature="Explorbest()[pri:0, instance:com.example.new_maven.testcase.Besttestcase@305b7c14]" started-at="2026-02-10T10:30:58 PST" name="Explorbest" finished-at="2026-02-10T10:31:00 PST" duration-ms="2027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Explorbest -->
+      </class> <!-- com.example.new_maven.testcase.Besttestcase -->
+      <class name="com.example.new_maven.testcase.careerTestcase">
+        <test-method signature="careerJobs()[pri:0, instance:com.example.new_maven.testcase.careerTestcase@158a8276]" started-at="2026-02-10T10:31:15 PST" name="careerJobs" finished-at="2026-02-10T10:31:16 PST" duration-ms="1436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careerJobs -->
+      </class> <!-- com.example.new_maven.testcase.careerTestcase -->
+      <class name="com.example.new_maven.testcase.Blogstestcase">
+        <test-method signature="Blogstest()[pri:0, instance:com.example.new_maven.testcase.Blogstestcase@c0c2f8d]" started-at="2026-02-10T10:30:55 PST" name="Blogstest" finished-at="2026-02-10T10:30:58 PST" duration-ms="2148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blogstest -->
+      </class> <!-- com.example.new_maven.testcase.Blogstestcase -->
+      <class name="com.example.new_maven.testcase.signupTestcase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.new_maven.testcase.signupTestcase@2002fc1d]" started-at="2026-02-10T10:29:23 PST" name="setup" finished-at="2026-02-10T10:29:25 PST" duration-ms="2913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signupTest()[pri:1, instance:com.example.new_maven.testcase.signupTestcase@2002fc1d]" started-at="2026-02-10T10:29:26 PST" name="signupTest" finished-at="2026-02-10T10:29:36 PST" duration-ms="10316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTest -->
+        <test-method signature="blankallSignup()[pri:2, instance:com.example.new_maven.testcase.signupTestcase@2002fc1d]" started-at="2026-02-10T10:29:36 PST" name="blankallSignup" finished-at="2026-02-10T10:29:41 PST" duration-ms="4732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankallSignup -->
+        <test-method signature="invalidFirstnameSignup()[pri:3, instance:com.example.new_maven.testcase.signupTestcase@2002fc1d]" started-at="2026-02-10T10:29:41 PST" name="invalidFirstnameSignup" finished-at="2026-02-10T10:29:48 PST" duration-ms="7436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidFirstnameSignup -->
+        <test-method signature="invalidlastnameSignup()[pri:4, instance:com.example.new_maven.testcase.signupTestcase@2002fc1d]" started-at="2026-02-10T10:29:48 PST" name="invalidlastnameSignup" finished-at="2026-02-10T10:29:56 PST" duration-ms="7380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlastnameSignup -->
+        <test-method signature="invalidEmailSignup()[pri:5, instance:com.example.new_maven.testcase.signupTestcase@2002fc1d]" started-at="2026-02-10T10:29:56 PST" name="invalidEmailSignup" finished-at="2026-02-10T10:30:02 PST" duration-ms="6668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailSignup -->
+        <test-method signature="invalidEmailmissingSignup()[pri:6, instance:com.example.new_maven.testcase.signupTestcase@2002fc1d]" started-at="2026-02-10T10:30:02 PST" name="invalidEmailmissingSignup" finished-at="2026-02-10T10:30:08 PST" duration-ms="5684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailmissingSignup -->
+        <test-method signature="invalidPasswordSignup()[pri:7, instance:com.example.new_maven.testcase.signupTestcase@2002fc1d]" started-at="2026-02-10T10:30:08 PST" name="invalidPasswordSignup" finished-at="2026-02-10T10:30:12 PST" duration-ms="3955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordSignup -->
+        <test-method signature="invalidConfirmpasswordSignup()[pri:8, instance:com.example.new_maven.testcase.signupTestcase@2002fc1d]" started-at="2026-02-10T10:30:12 PST" name="invalidConfirmpasswordSignup" finished-at="2026-02-10T10:30:15 PST" duration-ms="3638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidConfirmpasswordSignup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.new_maven.testcase.signupTestcase@2002fc1d]" started-at="2026-02-10T10:31:21 PST" name="tearDown" finished-at="2026-02-10T10:31:22 PST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.new_maven.testcase.signupTestcase -->
+      <class name="com.example.new_maven.testcase.claimTestcase">
+        <test-method signature="clickClaim()[pri:0, instance:com.example.new_maven.testcase.claimTestcase@79d8407f]" started-at="2026-02-10T10:31:18 PST" name="clickClaim" finished-at="2026-02-10T10:31:19 PST" duration-ms="1761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickClaim -->
+      </class> <!-- com.example.new_maven.testcase.claimTestcase -->
+      <class name="com.example.new_maven.testcase.Privacytestcase">
+        <test-method signature="Privacytest1()[pri:1, instance:com.example.new_maven.testcase.Privacytestcase@2de23121]" started-at="2026-02-10T10:30:41 PST" name="Privacytest1" finished-at="2026-02-10T10:30:44 PST" duration-ms="2557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Privacytest1 -->
+        <test-method signature="Privacytest2()[pri:2, instance:com.example.new_maven.testcase.Privacytestcase@2de23121]" started-at="2026-02-10T10:30:44 PST" name="Privacytest2" finished-at="2026-02-10T10:30:44 PST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Privacytest2 -->
+      </class> <!-- com.example.new_maven.testcase.Privacytestcase -->
+    </test> <!-- SignupTest -->
+  </suite> <!-- phptravelSuite -->
+</testng-results>

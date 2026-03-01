@@ -1,0 +1,275 @@
+<html>
+<head>
+<title>TestNG:  SignupTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SignupTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>39/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Feb 10 10:29:25 PST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>115 seconds (115881 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.example.new_maven.testcase.claimTestcase.clickClaim()'><b>clickClaim</b><br>Test class: com.example.new_maven.testcase.claimTestcase</td>
+<td></td>
+<td>1</td>
+<td>com.example.new_maven.testcase.claimTestcase@79d8407f</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Termstestcase.Terms2()'><b>Terms2</b><br>Test class: com.example.new_maven.testcase.Termstestcase</td>
+<td></td>
+<td>2</td>
+<td>com.example.new_maven.testcase.Termstestcase@4988d8b8</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.LoginTest.forgotPasswordInvalidLogin()'><b>forgotPasswordInvalidLogin</b><br>Test class: com.example.new_maven.testcase.LoginTest</td>
+<td></td>
+<td>4</td>
+<td>com.example.new_maven.testcase.LoginTest@4009e306</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Insurencetestcase.clickInsurence()'><b>clickInsurence</b><br>Test class: com.example.new_maven.testcase.Insurencetestcase</td>
+<td></td>
+<td>2</td>
+<td>com.example.new_maven.testcase.Insurencetestcase@66d18979</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.refundTestcase.refund_Click()'><b>refund_Click</b><br>Test class: com.example.new_maven.testcase.refundTestcase</td>
+<td></td>
+<td>1</td>
+<td>com.example.new_maven.testcase.refundTestcase@5fbe4146</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Abouttestcase.About2()'><b>About2</b><br>Test class: com.example.new_maven.testcase.Abouttestcase</td>
+<td></td>
+<td>0</td>
+<td>com.example.new_maven.testcase.Abouttestcase@587e5365</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Suppliertestcase.privacy1()'><b>privacy1</b><br>Test class: com.example.new_maven.testcase.Suppliertestcase</td>
+<td></td>
+<td>4</td>
+<td>com.example.new_maven.testcase.Suppliertestcase@63475ace</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Disruptiontestcase.disruption()'><b>disruption</b><br>Test class: com.example.new_maven.testcase.Disruptiontestcase</td>
+<td></td>
+<td>2</td>
+<td>com.example.new_maven.testcase.Disruptiontestcase@bccb269</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Privacytestcase.Privacytest1()'><b>Privacytest1</b><br>Test class: com.example.new_maven.testcase.Privacytestcase</td>
+<td></td>
+<td>2</td>
+<td>com.example.new_maven.testcase.Privacytestcase@2de23121</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Termstestcase.Terms1()'><b>Terms1</b><br>Test class: com.example.new_maven.testcase.Termstestcase</td>
+<td></td>
+<td>2</td>
+<td>com.example.new_maven.testcase.Termstestcase@4988d8b8</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Besttestcase.Explorbest()'><b>Explorbest</b><br>Test class: com.example.new_maven.testcase.Besttestcase</td>
+<td></td>
+<td>2</td>
+<td>com.example.new_maven.testcase.Besttestcase@305b7c14</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Investors.investortest()'><b>investortest</b><br>Test class: com.example.new_maven.testcase.Investors</td>
+<td></td>
+<td>2</td>
+<td>com.example.new_maven.testcase.Investors@13b6aecc</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.signupTestcase.blankallSignup()'><b>blankallSignup</b><br>Test class: com.example.new_maven.testcase.signupTestcase</td>
+<td></td>
+<td>4</td>
+<td>com.example.new_maven.testcase.signupTestcase@2002fc1d</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.bookTestcase.Bookclick()'><b>Bookclick</b><br>Test class: com.example.new_maven.testcase.bookTestcase</td>
+<td></td>
+<td>1</td>
+<td>com.example.new_maven.testcase.bookTestcase@3c3d9b6b</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.LoginTest.forgotPasswordvalidLogin()'><b>forgotPasswordvalidLogin</b><br>Test class: com.example.new_maven.testcase.LoginTest</td>
+<td></td>
+<td>2</td>
+<td>com.example.new_maven.testcase.LoginTest@4009e306</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.FAQtestcase.faq()'><b>faq</b><br>Test class: com.example.new_maven.testcase.FAQtestcase</td>
+<td></td>
+<td>2</td>
+<td>com.example.new_maven.testcase.FAQtestcase@609cd4d8</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.signupTestcase.invalidPasswordSignup()'><b>invalidPasswordSignup</b><br>Test class: com.example.new_maven.testcase.signupTestcase</td>
+<td></td>
+<td>3</td>
+<td>com.example.new_maven.testcase.signupTestcase@2002fc1d</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.signupTestcase.invalidFirstnameSignup()'><b>invalidFirstnameSignup</b><br>Test class: com.example.new_maven.testcase.signupTestcase</td>
+<td></td>
+<td>7</td>
+<td>com.example.new_maven.testcase.signupTestcase@2002fc1d</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.signupTestcase.invalidConfirmpasswordSignup()'><b>invalidConfirmpasswordSignup</b><br>Test class: com.example.new_maven.testcase.signupTestcase</td>
+<td></td>
+<td>3</td>
+<td>com.example.new_maven.testcase.signupTestcase@2002fc1d</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.signupTestcase.signupTest()'><b>signupTest</b><br>Test class: com.example.new_maven.testcase.signupTestcase</td>
+<td></td>
+<td>10</td>
+<td>com.example.new_maven.testcase.signupTestcase@2002fc1d</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.signupTestcase.invalidEmailSignup()'><b>invalidEmailSignup</b><br>Test class: com.example.new_maven.testcase.signupTestcase</td>
+<td></td>
+<td>6</td>
+<td>com.example.new_maven.testcase.signupTestcase@2002fc1d</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Cookietestcase.cookieClick2()'><b>cookieClick2</b><br>Test class: com.example.new_maven.testcase.Cookietestcase</td>
+<td></td>
+<td>1</td>
+<td>com.example.new_maven.testcase.Cookietestcase@22fcf7ab</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.LoginTest.inValidEmailLogin()'><b>inValidEmailLogin</b><br>Test class: com.example.new_maven.testcase.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>com.example.new_maven.testcase.LoginTest@4009e306</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.LoginTest.inValidPasswordLogin()'><b>inValidPasswordLogin</b><br>Test class: com.example.new_maven.testcase.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>com.example.new_maven.testcase.LoginTest@4009e306</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Blogstestcase.Blogstest()'><b>Blogstest</b><br>Test class: com.example.new_maven.testcase.Blogstestcase</td>
+<td></td>
+<td>2</td>
+<td>com.example.new_maven.testcase.Blogstestcase@c0c2f8d</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Abouttestcase.About1()'><b>About1</b><br>Test class: com.example.new_maven.testcase.Abouttestcase</td>
+<td></td>
+<td>2</td>
+<td>com.example.new_maven.testcase.Abouttestcase@587e5365</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.signupTestcase.invalidlastnameSignup()'><b>invalidlastnameSignup</b><br>Test class: com.example.new_maven.testcase.signupTestcase</td>
+<td></td>
+<td>7</td>
+<td>com.example.new_maven.testcase.signupTestcase@2002fc1d</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Documenttestcase.Documents()'><b>Documents</b><br>Test class: com.example.new_maven.testcase.Documenttestcase</td>
+<td></td>
+<td>2</td>
+<td>com.example.new_maven.testcase.Documenttestcase@6913c1fb</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.signupTestcase.invalidEmailmissingSignup()'><b>invalidEmailmissingSignup</b><br>Test class: com.example.new_maven.testcase.signupTestcase</td>
+<td></td>
+<td>5</td>
+<td>com.example.new_maven.testcase.signupTestcase@2002fc1d</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Privacytestcase.Privacytest2()'><b>Privacytest2</b><br>Test class: com.example.new_maven.testcase.Privacytestcase</td>
+<td></td>
+<td>0</td>
+<td>com.example.new_maven.testcase.Privacytestcase@2de23121</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Contacttestcase.Contacttest1()'><b>Contacttest1</b><br>Test class: com.example.new_maven.testcase.Contacttestcase</td>
+<td></td>
+<td>2</td>
+<td>com.example.new_maven.testcase.Contacttestcase@43c1b556</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.LoginTest.validLogin()'><b>validLogin</b><br>Test class: com.example.new_maven.testcase.LoginTest</td>
+<td></td>
+<td>3</td>
+<td>com.example.new_maven.testcase.LoginTest@4009e306</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.programmTestcase.support_Programm()'><b>support_Programm</b><br>Test class: com.example.new_maven.testcase.programmTestcase</td>
+<td></td>
+<td>2</td>
+<td>com.example.new_maven.testcase.programmTestcase@7d8704ef</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.LoginTest.inValidLogin()'><b>inValidLogin</b><br>Test class: com.example.new_maven.testcase.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>com.example.new_maven.testcase.LoginTest@4009e306</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Contacttestcase.Contacttest2()'><b>Contacttest2</b><br>Test class: com.example.new_maven.testcase.Contacttestcase</td>
+<td></td>
+<td>0</td>
+<td>com.example.new_maven.testcase.Contacttestcase@43c1b556</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Cookietestcase.cookieClick1()'><b>cookieClick1</b><br>Test class: com.example.new_maven.testcase.Cookietestcase</td>
+<td></td>
+<td>4</td>
+<td>com.example.new_maven.testcase.Cookietestcase@22fcf7ab</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Suppliertestcase.Privacy2()'><b>Privacy2</b><br>Test class: com.example.new_maven.testcase.Suppliertestcase</td>
+<td></td>
+<td>2</td>
+<td>com.example.new_maven.testcase.Suppliertestcase@63475ace</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.Accessibilitytestcase.accessibilityClick()'><b>accessibilityClick</b><br>Test class: com.example.new_maven.testcase.Accessibilitytestcase</td>
+<td></td>
+<td>2</td>
+<td>com.example.new_maven.testcase.Accessibilitytestcase@17f7cd29</td></tr>
+<tr>
+<td title='com.example.new_maven.testcase.careerTestcase.careerJobs()'><b>careerJobs</b><br>Test class: com.example.new_maven.testcase.careerTestcase</td>
+<td></td>
+<td>1</td>
+<td>com.example.new_maven.testcase.careerTestcase@158a8276</td></tr>
+</table><p>
+</body>
+</html>

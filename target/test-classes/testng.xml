@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="phptravelSuite">
+    <test name="SignupTest">
+        <classes>
+            <class name="com.example.new_maven.testcase.signupTestcase"/>
+			<class name="com.example.new_maven.testcase.LoginTest"/> 
+			<class name="com.example.new_maven.testcase.Contacttestcase"/> 
+			<class name="com.example.new_maven.testcase.Abouttestcase"/> 
+			<class name="com.example.new_maven.testcase.Cookietestcase"/> 
+			<class name="com.example.new_maven.testcase.Privacytestcase"/> 
+			<class name="com.example.new_maven.testcase.Suppliertestcase"/> 
+			<class name="com.example.new_maven.testcase.Termstestcase"/> 
+			<class name="com.example.new_maven.testcase.Blogstestcase"/> 
+			<class name="com.example.new_maven.testcase.Besttestcase"/> 
+			<class name="com.example.new_maven.testcase.Documenttestcase"/> 
+			<class name="com.example.new_maven.testcase.Insurencetestcase"/> 
+			<class name="com.example.new_maven.testcase.Disruptiontestcase"/> 
+			<class name="com.example.new_maven.testcase.FAQtestcase"/> 
+			<class name="com.example.new_maven.testcase.Accessibilitytestcase"/> 
+			<class name="com.example.new_maven.testcase.programmTestcase"/> 
+			<class name="com.example.new_maven.testcase.Investors"/> 
+			<class name="com.example.new_maven.testcase.careerTestcase"/> 
+			<class name="com.example.new_maven.testcase.bookTestcase"/> 
+			<class name="com.example.new_maven.testcase.claimTestcase"/> 
+			<class name="com.example.new_maven.testcase.refundTestcase"/> 
+			<!-- <class name="com.example.new_maven.testcase.Service_stayTest"/>  
+			<class name="com.example.new_maven.testcase.toursTestcase"/> -->
+           
+        </classes>
+    </test>
+</suite>

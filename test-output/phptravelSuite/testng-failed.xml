@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [phptravelSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SignupTest(failed)">
+    <classes>
+      <class name="com.example.new_maven.testcase.signupTestcase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="invalidEmailmissingSignup"/>
+          <include name="setup"/>
+          <include name="invalidEmailSignup"/>
+        </methods>
+      </class> <!-- com.example.new_maven.testcase.signupTestcase -->
+    </classes>
+  </test> <!-- SignupTest(failed) -->
+</suite> <!-- Failed suite [phptravelSuite] -->
