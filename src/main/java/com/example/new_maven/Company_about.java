@@ -20,20 +20,20 @@ public class Company_about {
     }
 
     public void aboutUsmenuClick() {
-    	WebElement company=wait.until(ExpectedConditions.elementToBeClickable(By
-    			.xpath("//*[self::a or self::button or self::span]" +
-    					"[normalize-space()='Company']")));
-    	js.executeScript("arguments[0].scrollIntoView({block:'center'});", company);
-    	try {
-    		new Actions(driver).moveToElement(company).pause(Duration.ofMillis(200)).perform(); 
-		} catch (Exception ignored) {
-			
-		}
-    	try {
-    		company.click();
-		} catch (Exception e) {
-			js.executeScript("arguments[0].click();", company);
-		}
+//    	WebElement company=wait.until(ExpectedConditions.elementToBeClickable(By
+//    			.xpath("//*[self::a or self::button or self::span]" +
+//    					"[normalize-space()='Company']")));
+//    	js.executeScript("arguments[0].scrollIntoView({block:'center'});", company);
+//    	try {
+//    		new Actions(driver).moveToElement(company).pause(Duration.ofMillis(200)).perform(); 
+//		} catch (Exception ignored) {
+//			
+//		}
+//    	try {
+//    		company.click();
+//		} catch (Exception e) {
+//			js.executeScript("arguments[0].click();", company);
+//		}
     	
     	WebElement about1=wait.until(ExpectedConditions.elementToBeClickable(By
     			.xpath("//a[normalize-space()='About us' or normalize-space()='About Us' or contains(@href,'/page/about-us')]")));

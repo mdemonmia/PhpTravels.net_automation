@@ -21,39 +21,39 @@ public class Company_terms {
 		this.js=(JavascriptExecutor) driver;
 	}
 	
-	public void clickTerms() {
-		WebElement company=wait.until(ExpectedConditions.elementToBeClickable(By
-				.xpath("//*[self::a or self::button or self::span]" +
-    					"[normalize-space()='Company']")));
-		js.executeScript("arguments[0].scrollIntoView({block:'center'});", company);
-		try {
-			new Actions(driver).moveToElement(company).pause(Duration.ofMillis(500)).perform();
-		} catch (Exception ignored) {
-			
-		}
-		try {
-			company.click();
-		} catch (Exception e) {
-			js.executeScript("arguments[0].click();", company);
-		}
-		
-		WebElement terms=wait.until(ExpectedConditions.elementToBeClickable(By
-				.xpath( "//a[" +
-			              "normalize-space()='Terms of Use' " +
-			              "or normalize-space()='Terms of use' " +
-			              "or contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'terms of use') " +
-			              "or contains(translate(@href,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'terms-of-use')" +
-			            "]")));
-		js.executeScript("arguments[0].scrollIntoView({block:'center'});", terms);
-		
-		try {
-			terms.click();
-		} catch (Exception e) {
-			js.executeScript("arguments[0].click();", terms);
-		}
-		
-		wait.until(ExpectedConditions.urlContains("/page/terms-of-use"));
-	}
+//	public void clickTerms() {
+//		WebElement company=wait.until(ExpectedConditions.elementToBeClickable(By
+//				.xpath("//*[self::a or self::button or self::span]" +
+//    					"[normalize-space()='Company']")));
+//		js.executeScript("arguments[0].scrollIntoView({block:'center'});", company);
+//		try {
+//			new Actions(driver).moveToElement(company).pause(Duration.ofMillis(500)).perform();
+//		} catch (Exception ignored) {
+//			
+//		}
+//		try {
+//			company.click();
+//		} catch (Exception e) {
+//			js.executeScript("arguments[0].click();", company);
+//		}
+//		
+//		WebElement terms=wait.until(ExpectedConditions.elementToBeClickable(By
+//				.xpath( "//a[" +
+//			              "normalize-space()='Terms of Use' " +
+//			              "or normalize-space()='Terms of use' " +
+//			              "or contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'terms of use') " +
+//			              "or contains(translate(@href,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'terms-of-use')" +
+//			            "]")));
+//		js.executeScript("arguments[0].scrollIntoView({block:'center'});", terms);
+//		
+//		try {
+//			terms.click();
+//		} catch (Exception e) {
+//			js.executeScript("arguments[0].click();", terms);
+//		}
+//		
+//		wait.until(ExpectedConditions.urlContains("/page/terms-of-use"));
+//	}
 	
 	public void clickTerms2() {
 		WebElement terms2=wait.until(ExpectedConditions.elementToBeClickable(By

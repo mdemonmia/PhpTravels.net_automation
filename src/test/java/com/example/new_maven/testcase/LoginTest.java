@@ -12,8 +12,8 @@ public class LoginTest extends BaseTest{
   public void validLogin() {
 	  driver.get("https://phptravels.net/login");
 	  Login alogin=new Login(driver);
-	  alogin.Entermail("emonrpi@gmail.com");
-	  alogin.Enterpassword("123456@");
+	  alogin.Entermail("user@phptravels.com");
+	  alogin.Enterpassword("demouser");
 	  alogin.isCheck();
 	  alogin.SubmitLogin();
 	  Assert.assertTrue(alogin.isErrorDisplay(), "Invalid credentials.");
@@ -52,7 +52,7 @@ public class LoginTest extends BaseTest{
   public void inValidPasswordLogin() {
 	  driver.get("https://phptravels.net/login");
 	  Login alogin=new Login(driver);
-	  alogin.Entermail("emonrpi@gmail.com");
+	  alogin.Entermail("user@phptravels.com");
 	  alogin.Enterpassword("");
 	  alogin.isCheck();
 	  alogin.SubmitLogin();
@@ -64,7 +64,7 @@ public class LoginTest extends BaseTest{
   public void forgotPasswordvalidLogin() {
 	  driver.get("https://phptravels.net/login");
 	  Login alogin=new Login(driver);
-	  alogin.ClickForgotpassword("emonrpi@gmail.com");
+	  alogin.ClickForgotpassword("user@phptravels.com");
 	     
   }
   

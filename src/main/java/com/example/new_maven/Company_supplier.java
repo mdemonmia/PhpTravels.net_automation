@@ -22,32 +22,32 @@ public class Company_supplier {
 		this.js=(JavascriptExecutor) driver;
 	}
 	
-	public void clickSupplier() {
-		WebElement company=wait.until(ExpectedConditions.elementToBeClickable(By
-				.xpath("//*[self::a or self::button or self::span]" +
-    					"[normalize-space()='Company']")));
-		js.executeScript("arguments[0].scrollIntoView({block:'center'});", company);
-		try {
-			new Actions(driver).moveToElement(company).pause(Duration.ofMillis(500)).perform();
-		} catch (Exception ignored) {
-			
-		}
-		try {
-			company.click();
-		} catch (Exception e) {
-			js.executeScript("arguments[0].click();", company);
-		}
-		
-		WebElement privacy=wait.until(ExpectedConditions.elementToBeClickable(By
-				.xpath("//a[normalize-space()='Become a Supplier' or normalize-space()='Become a Supplier' or contains(@href,'/page/become-a-supplier')]")));
-		js.executeScript("arguments[0].scrollIntoView({block:'center'});", privacy);
-		try {
-			privacy.click();
-		} catch (Exception e) {
-			js.executeScript("arguments[0].click();", privacy);
-		}
-		wait.until(ExpectedConditions.urlContains("become-a-supplier"));
-	}
+//	public void clickSupplier() {
+//		WebElement company=wait.until(ExpectedConditions.elementToBeClickable(By
+//				.xpath("//*[self::a or self::button or self::span]" +
+//    					"[normalize-space()='Company']")));
+//		js.executeScript("arguments[0].scrollIntoView({block:'center'});", company);
+//		try {
+//			new Actions(driver).moveToElement(company).pause(Duration.ofMillis(500)).perform();
+//		} catch (Exception ignored) {
+//			
+//		}
+//		try {
+//			company.click();
+//		} catch (Exception e) {
+//			js.executeScript("arguments[0].click();", company);
+//		}
+//		
+//		WebElement privacy=wait.until(ExpectedConditions.elementToBeClickable(By
+//				.xpath("//a[normalize-space()='Become a Supplier' or normalize-space()='Become a Supplier' or contains(@href,'/page/become-a-supplier')]")));
+//		js.executeScript("arguments[0].scrollIntoView({block:'center'});", privacy);
+//		try {
+//			privacy.click();
+//		} catch (Exception e) {
+//			js.executeScript("arguments[0].click();", privacy);
+//		}
+//		wait.until(ExpectedConditions.urlContains("become-a-supplier"));
+//	}
 
 	public void clickPrivacy2() {
 		WebElement privacy2=wait.until(ExpectedConditions.elementToBeClickable(By

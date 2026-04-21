@@ -23,36 +23,36 @@ public class Company_cookie {
 				
 	}
 	
-	public void Clickcookie() {
-		WebElement company=wait.until(ExpectedConditions.elementToBeClickable(By
-				.xpath("//*[self::a or self::button or self::span]" +
-    					"[normalize-space()='Company']")));
-		js.executeScript("arguments[0].scrollIntoView({block:'center'})", company);
+//	public void Clickcookie() {
+//		WebElement company=wait.until(ExpectedConditions.elementToBeClickable(By
+//				.xpath("//*[self::a or self::button or self::span]" +
+//    					"[normalize-space()='Company']")));
+//		js.executeScript("arguments[0].scrollIntoView({block:'center'})", company);
+//		
+//		try {
+//			new Actions(driver).moveToElement(company).pause(Duration.ofMillis(500)).perform();
+//		} catch (Exception ignored) {
+//			
+//		}
+//		
+//		try {
+//			company.click();
+//		} catch (Exception e) {
+//			js.executeScript("arguments[0].click();", company);
+//		}
 		
-		try {
-			new Actions(driver).moveToElement(company).pause(Duration.ofMillis(500)).perform();
-		} catch (Exception ignored) {
-			
-		}
-		
-		try {
-			company.click();
-		} catch (Exception e) {
-			js.executeScript("arguments[0].click();", company);
-		}
-		
-		WebElement cookie=wait.until(ExpectedConditions.elementToBeClickable(By
-				.xpath("//a[normalize-space()='Cookies Policy' or normalize-space()='Cookies Policy' or contains(@href,'/page/cookies-policy')]")));
-		js.executeScript("arguments[0].scrollIntoView({block:'center'});", cookie);
-		try {
-			cookie.click();
-		} catch (Exception e) {
-			js.executeScript("arguments[0].click();", cookie);
-		}
-		
-		wait.until(ExpectedConditions.urlContains("/page/cookies-policy"));
-	}
-	
+//		WebElement cookie=wait.until(ExpectedConditions.elementToBeClickable(By
+//				.xpath("//a[normalize-space()='Cookies Policy' or normalize-space()='Cookies Policy' or contains(@href,'/page/cookies-policy')]")));
+//		js.executeScript("arguments[0].scrollIntoView({block:'center'});", cookie);
+//		try {
+//			cookie.click();
+//		} catch (Exception e) {
+//			js.executeScript("arguments[0].click();", cookie);
+//		}
+//		
+//		wait.until(ExpectedConditions.urlContains("/page/cookies-policy"));
+//	}
+//	
 	public void Clickcookie2() {
 		WebElement cookie2=wait.until(ExpectedConditions.elementToBeClickable(By
 				.xpath("//a[@href='https://phptravels.net/page/cookies-policy']//span[@class='material-symbols-outlined text-base mr-1.5 text-blue-500 group-hover:text-blue-600'][normalize-space()='chevron_right']")));

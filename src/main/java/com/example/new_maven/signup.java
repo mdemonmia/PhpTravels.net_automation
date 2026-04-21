@@ -25,7 +25,7 @@ public class signup {
 	
 	public void customerSignup() {
 		WebElement signUpmenu=wait.until(ExpectedConditions.elementToBeClickable(By.xpath
-				("//span[contains(text(),'Signup')]")));
+				("//*[contains(text(),'Signup') or contains(text(),'Sign up') or contains(text(),'Register')]")));
 		Actions action=new Actions(driver);
 		action.moveToElement(signUpmenu).build().perform();
 		WebElement clickCustomer=wait.until(ExpectedConditions.elementToBeClickable(By.xpath

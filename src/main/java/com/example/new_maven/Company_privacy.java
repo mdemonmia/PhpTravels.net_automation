@@ -22,34 +22,34 @@ public class Company_privacy {
 		this.js=(JavascriptExecutor) driver;
 	}
 
-	public void clickPrivacy() {
-		WebElement company=wait.until(ExpectedConditions.elementToBeClickable(By
-				.xpath("//*[self::a or self::button or self::span]" +
-    					"[normalize-space()='Company']")));
-		js.executeScript("arguments[0].scrollIntoView({block:'center'});", company);
-		
-		try {
-			new Actions(driver).moveToElement(company).pause(Duration.ofMillis(500)).perform();
-		} catch (Exception ignored) {
-			
-		}
-		try {
-			company.click();
-		} catch (Exception e) {
-			js.executeScript("arguments[0].click();", company);
-		}
-		
-		WebElement privacy2=wait.until(ExpectedConditions.elementToBeClickable(By
-				.xpath("//a[normalize-space()='Privacy Policy' or normalize-space()='Privacy Policy' or contains(@href,'/page/privacy-policy')]")));
-		js.executeScript("arguments[0].scrollIntoView({block:'center'});", privacy2);
-		try {
-			privacy2.click();
-		} catch (Exception e) {
-			js.executeScript("arguments[0].click();", privacy2);
-		}
-		
-		wait.until(ExpectedConditions.urlContains("/page/privacy-policy"));
-	}
+//	public void clickPrivacy() {
+//		WebElement company=wait.until(ExpectedConditions.elementToBeClickable(By
+//				.xpath("//*[self::a or self::button or self::span]" +
+//    					"[normalize-space()='Company']")));
+//		js.executeScript("arguments[0].scrollIntoView({block:'center'});", company);
+//		
+//		try {
+//			new Actions(driver).moveToElement(company).pause(Duration.ofMillis(500)).perform();
+//		} catch (Exception ignored) {
+//			
+//		}
+//		try {
+//			company.click();
+//		} catch (Exception e) {
+//			js.executeScript("arguments[0].click();", company);
+//		}
+//		
+//		WebElement privacy2=wait.until(ExpectedConditions.elementToBeClickable(By
+//				.xpath("//a[normalize-space()='Privacy Policy' or normalize-space()='Privacy Policy' or contains(@href,'/page/privacy-policy')]")));
+//		js.executeScript("arguments[0].scrollIntoView({block:'center'});", privacy2);
+//		try {
+//			privacy2.click();
+//		} catch (Exception e) {
+//			js.executeScript("arguments[0].click();", privacy2);
+//		}
+//		
+//		wait.until(ExpectedConditions.urlContains("/page/privacy-policy"));
+//	}
 	
 	public void privacyClick2() {
 		WebElement privacy2=wait.until(ExpectedConditions.elementToBeClickable(By

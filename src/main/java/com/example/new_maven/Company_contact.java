@@ -22,16 +22,16 @@ public class Company_contact {
 		this.js=(JavascriptExecutor) driver;
 	}
 	
-	public void selectContact() {
-		WebElement contact=wait.until(ExpectedConditions.elementToBeClickable(By
-				.xpath("//span[normalize-space()='Company']")));
-		Actions action =new Actions(driver);
-		action.moveToElement(contact).build().perform();
-		WebElement contactUs=wait.until(ExpectedConditions.elementToBeClickable(By
-				.xpath("//a[normalize-space()='Contact us']")));
-		js.executeScript("arguments[0].click();", contactUs);
-		
-	}
+//	public void selectContact() {
+//		WebElement contact=wait.until(ExpectedConditions.elementToBeClickable(By
+//				.xpath("//span[normalize-space()='Company']")));
+//		Actions action =new Actions(driver);
+//		action.moveToElement(contact).build().perform();
+//		WebElement contactUs=wait.until(ExpectedConditions.elementToBeClickable(By
+//				.xpath("//a[normalize-space()='Contact us']")));
+//		js.executeScript("arguments[0].click();", contactUs);
+//		
+//	}
 	
 	public void selectContact2() {
 		WebElement contact2=wait.until(ExpectedConditions.elementToBeClickable(By
