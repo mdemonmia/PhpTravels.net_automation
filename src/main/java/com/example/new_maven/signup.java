@@ -23,8 +23,8 @@ public class signup {
 
     // ✅ মেনু ক্লিক বাদ দিয়ে সরাসরি register পেজে যাও
     public void customerSignup() {
-        driver.get("https://www.phptravels.net/register");
-        wait.until(ExpectedConditions.urlContains("register"));
+        driver.get("https://phptravels.net/signup");
+        wait.until(ExpectedConditions.urlContains("signup"));
     }
 
     public void enterName(String firstName, String lastName) {

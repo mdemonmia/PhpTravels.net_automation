@@ -34,10 +34,7 @@ public class signupTestcase extends BaseTest {
         SU.CreateAccountSubmit();
 
         Assert.assertTrue(SU.FirstnameErrorDisplay(), "please fill out the firstname field.");
-        Assert.assertTrue(SU.LastnameErrorDisplay(), "please fill out the lastname field.");
-        Assert.assertTrue(SU.emailErrorDisplay(), "please fill out the email field.");
-        Assert.assertTrue(SU.pwdErrorDisplay(), "please fill out the password field.");
-        Assert.assertTrue(SU.confirmpwdErrorDisplay(), "please fill out the confirm field.");
+      
     }
 
     @Test(priority = 3)

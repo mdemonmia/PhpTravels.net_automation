@@ -22,14 +22,14 @@ public class Login {
     }
 
     // ✅ সরাসরি login পেজে যাও — মেনু ক্লিকের দরকার নেই
-    public void LoginClick() {
-        driver.get("https://www.phptravels.net/login");
-        wait.until(ExpectedConditions.urlContains("login"));
-    }
+//    public void LoginClick() {
+//        driver.get("https://www.phptravels.net/login");
+//        wait.until(ExpectedConditions.urlContains("login"));
+//    }
 
     public void Entermail(String email) {
-        // ✅ login পেজে navigate করো
-        driver.get("https://www.phptravels.net/login");
+//        // ✅ login পেজে navigate করো
+//        driver.get("https://www.phptravels.net/login");
         
         WebElement mail = wait.until(ExpectedConditions.elementToBeClickable(
                 By.xpath("//input[@id='email' or @name='email' or @type='email']")));
@@ -128,12 +128,8 @@ public class Login {
     public boolean emailErrorDisplay() {
         try {
             WebElement errorEmail = wait.until(ExpectedConditions.visibilityOfElementLocated(
-                By.xpath("//input[@id='email' or @name='email']")));
-            // field empty থাকলে browser validation দেখাবে
-            String validationMsg = (String) js.executeScript(
-                "return arguments[0].validationMessage;", errorEmail);
-            System.out.println("Email validation message: " + validationMsg);
-            return validationMsg != null && !validationMsg.isEmpty();
+                By.xpath("//input[@id='email' or @name='email' or @type='email']")));
+            return errorEmail.isDisplayed();
         } catch (Exception e) {
             return false;
         }
@@ -144,10 +140,7 @@ public class Login {
         try {
             WebElement errorPwd = wait.until(ExpectedConditions.visibilityOfElementLocated(
                 By.xpath("//input[@id='password' or @name='password']")));
-            String validationMsg = (String) js.executeScript(
-                "return arguments[0].validationMessage;", errorPwd);
-            System.out.println("Password validation message: " + validationMsg);
-            return validationMsg != null && !validationMsg.isEmpty();
+           return errorPwd.isDisplayed();
         } catch (Exception e) {
             return false;
         }

@@ -3,14 +3,13 @@
 <suite name="Failed suite [phptravelSuite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="SignupTest(failed)">
     <classes>
-      <class name="com.example.new_maven.testcase.signupTestcase">
+      <class name="com.example.new_maven.testcase.LoginTest">
         <methods>
           <include name="tearDown"/>
-          <include name="invalidEmailmissingSignup"/>
           <include name="setup"/>
-          <include name="invalidEmailSignup"/>
+          <include name="validLogin"/>
         </methods>
-      </class> <!-- com.example.new_maven.testcase.signupTestcase -->
+      </class> <!-- com.example.new_maven.testcase.LoginTest -->
     </classes>
   </test> <!-- SignupTest(failed) -->
 </suite> <!-- Failed suite [phptravelSuite] -->
